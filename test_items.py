@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 class TestPythonAnywhereParametrize:
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
-    def test_feedback_1(self, browser):
+    def test_should_be_button_add_item_to_basket(self, browser):
         
         browser.get(self.link)
 
